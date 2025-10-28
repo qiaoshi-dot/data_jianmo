@@ -14,13 +14,17 @@ env/
 .ipynb_checkpoints/
 *.ipynb_checkpoints
 
-# 数据文件（根据需要调整）
+# 数据文件(根据需要调整)
 *.csv
 *.xlsx
 *.xls
 # 但保留示例数据
 !example*.csv
 !example*.xlsx
+# 保留2020C项目的数据文件
+!2020C-*/数据/*.xlsx
+!2020C-*/数据/*.csv
+!2020C-*/数据/*.xls
 
 # 输出文件
 outputs/*
